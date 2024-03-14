@@ -2,7 +2,7 @@
 [![Actions Status](https://github.com/janejuly1/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/janejuly1/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/21a538fbea58a352971d/maintainability)](https://codeclimate.com/github/janejuly1/python-project-49/maintainability)
 ```
-Версия Python: 3.10.8
+Версия Python: 3.11
 Версия poetry: 1.8.1
 Для полной устновки игры, нужно ввести команду: make setup
 ```
