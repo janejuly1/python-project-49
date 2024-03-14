@@ -7,6 +7,11 @@ readme = "README.md"
 packages = [
     { include = "brain_games" },
 ]
+classifiers = [
+    "Programming Language :: Python",
+    "Topic :: Software Development :: Games"
+]
+repository = "https://github.com/janejuly1/python-project-49.git"
 
 [tool.poetry.dependencies]
 python = "^3.11"
