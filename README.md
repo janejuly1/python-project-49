@@ -1,5 +1,6 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/janejuly1/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/janejuly1/python-project-49/actions)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/21a538fbea58a352971d/test_coverage)](https://codeclimate.com/github/janejuly1/python-project-49/test_coverage)
 ```
 Версия Python: 3.10.8
 Версия poetry: 1.8.1
