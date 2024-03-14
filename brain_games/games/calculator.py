@@ -13,8 +13,6 @@ def expressions(num_1, num_2, operator):
             return num_1 - num_2
         case "*":
             return num_1 * num_2
-        case _:
-            return f'{"Invalid input"}'
 
 
 def question():
