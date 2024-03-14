@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "short games with numbers"
 authors = ["Jane Drobova <janejuly1@gmail.com>"]
 readme = "README.md"
 packages = [
@@ -21,9 +21,11 @@ prompt = "^0.4.1"
 [tool.poetry.group.dev.dependencies]
 flake8 = "^7.0.0"
 
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
