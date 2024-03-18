@@ -1,26 +1,26 @@
-#!/usr/bin/env python3 -m brain_games.scripts
 from random import randint, choice
 
 
-CONDITION = 'What number is missing in the progression?'
+QUESTION = 'What number is missing in the progression?'
+PROGRESSION_LENGTH = 10
 
 
-def progression(question_progression, elem):
+def get_progression(question_progression, elem):
     index = question_progression.index(elem)
     question_progression[index] = '..'
 
     return ' '.join(str(element) for element in question_progression)
 
 
-def question():
+def get_game_data():
     first_el = randint(1, 10)
     question_progression = [first_el]
     step = randint(1, 10)
     i = first_el
-    while len(question_progression) < 10:
+    while len(question_progression) < PROGRESSION_LENGTH:
         i += step
         question_progression.append(i)
     elem = choice(question_progression)
-    game_question = f'{progression(question_progression, elem)}'
+    game_question = f'{get_progression(question_progression, elem)}'
     game_answer = elem
     return game_question, game_answer

@@ -2,18 +2,18 @@
 from random import randint
 
 
-CONDITION = 'Answer "yes" if the number is even, otherwise answer "no".'
+QUESTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_even(num):
-    if num % 2 == 0:
-        return 'yes'
-    else:
-        return 'no'
+    return num % 2 == 0
 
 
-def question():
+def get_game_data():
     num = randint(0, 100)
     game_question = f'{num}'
-    game_answer = is_even(num)
+    if is_even(num):
+        game_answer = "yes"
+    else:
+        game_answer = "no"
     return game_question, game_answer

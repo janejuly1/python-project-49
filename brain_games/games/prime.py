@@ -1,23 +1,22 @@
-#!/usr/bin/env python3 -m brain_games.scripts
 from random import randint
 
 
-CONDITION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def prime(num):
+def is_prime(num):
     result = []
-    for i in range(1, num + 1):
+    for i in range(1, (num + 1) / 2):
         if num % i == 0:
             result.append(i)
-    if len(result) == 2:
-        return 'yes'
-    else:
-        return 'no'
+    return len(result) == 2
 
 
-def question():
+def get_game_data():
     num = randint(0, 100)
     game_question = f'{num}'
-    game_answer = prime(num)
+    if is_prime(num):
+        game_answer = "yes"
+    else:
+        game_answer = "no"
     return game_question, game_answer
