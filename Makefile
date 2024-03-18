@@ -1,4 +1,4 @@
-setup: install build publish package-install brain-games
+setup: install build publish package-install
 
 install:
 	poetry install
