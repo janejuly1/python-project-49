@@ -6,7 +6,7 @@ QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def is_prime(num):
     result = []
-    for i in range(1, (num + 1) / 2):
+    for i in range(1, (num + 1)):
         if num % i == 0:
             result.append(i)
     return len(result) == 2
