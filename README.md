@@ -8,7 +8,7 @@
     - клонировать репозиторий
     - перейти в него
     - выполнить команду make install
-    - выполнить команду setup
+    - выполнить команду make setup
 ```
 [![asciicast](https://asciinema.org/a/hlHM2TmZ6CLn3lfuFxbgBKLN7.svg)](https://asciinema.org/a/hlHM2TmZ6CLn3lfuFxbgBKLN7)
 
