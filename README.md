@@ -1,16 +1,30 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/janejuly1/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/janejuly1/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/21a538fbea58a352971d/maintainability)](https://codeclimate.com/github/janejuly1/python-project-49/maintainability)
+
 ```
 Версия Python: 3.11
 Версия poetry: 1.8.1
-Для полной устновки игры, нужно ввести выполнить следующие действия:
-    - клонировать репозиторий
-    - перейти в него
-    - выполнить команду make install
-    - выполнить команду make setup
 ```
-[![asciicast](https://asciinema.org/a/hlHM2TmZ6CLn3lfuFxbgBKLN7.svg)](https://asciinema.org/a/hlHM2TmZ6CLn3lfuFxbgBKLN7)
+Для полной установки игры, нужно ввести выполнить следующие действия:
+
+клонировать репозиторий
+```
+git clone https://github.com/janejuly1/python-project-49.git
+```
+перейти в него
+```
+cd python-project-49
+```
+настроить окружение 
+```
+make setup
+```
+начать играть
+```
+make brain-games
+```
+[![asciicast](https://asciinema.org/a/s5vctr6cXZCBVbszwJL6ISEDl.svg)](https://asciinema.org/a/s5vctr6cXZCBVbszwJL6ISEDl)
 
 ### Описание:
 "Игры разума" - пять игр с числами в командной строке, где нужно правильно ответить на три вопроса, в случае ошибки игра заканчивается.
