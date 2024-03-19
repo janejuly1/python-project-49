@@ -12,8 +12,5 @@ def is_even(num):
 def get_game_data():
     num = randint(0, 100)
     game_question = f'{num}'
-    if is_even(num):
-        game_answer = "yes"
-    else:
-        game_answer = "no"
+    game_answer = "yes" if is_even(num) else "no"
     return game_question, game_answer
